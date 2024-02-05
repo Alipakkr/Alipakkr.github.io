@@ -91,9 +91,14 @@
                         <a href="#projects" aria-label="projects menu button">
                             <li class="projects" data-aos="fade-down" data-aos-delay="700">&#60;/Projects&#62;</li>
                         </a>
-                        <a href="https://drive.google.com/file/d/1IkaFgeR0VhnHQBuTrQbBNcWf9dMbvauT/view?usp=sharing"
-                            aria-label="resume button">
-                            <li class="resume" data-aos="fade-down" data-aos-delay="900">&#60;/Resume&#62;</li>
+                        <a href="#Contact" tabindex="0" aria-label="Contact menu button">
+                            <li id="Contact-mobile-tab" class="mobile-nav-menu-tabs-li Contact"
+                                onclick="hidemenubyli()">
+                                &#60;/Contact&#62;</li>
+                        </a>
+                        <a href="#resume" tabindex="0" aria-label="resume menu button">
+                            <li id="resume-mobile-tab" class="mobile-nav-menu-tabs-li resume" onclick="hidemenubyli()">
+                                &#60;/Resume&#62;</li>
                         </a>
                     </ul>
                 </div>
@@ -131,10 +136,15 @@
                     <li id="projects-mobile-tab" class="mobile-nav-menu-tabs-li projects" onclick="hidemenubyli()">
                         &#60;/Projects&#62;</li>
                 </a>
+                <a href="#Contact" tabindex="0" aria-label="resume menu button">
+                    <li id="resume-mobile-tab" class="mobile-nav-menu-tabs-li projects" onclick="hidemenubyli()">
+                        &#60;/Contact&#62;</li>
+                </a>
                 <a href="#resume" tabindex="0" aria-label="resume menu button">
                     <li id="resume-mobile-tab" class="mobile-nav-menu-tabs-li projects" onclick="hidemenubyli()">
                         &#60;/Resume&#62;</li>
                 </a>
+
 
 
             </ul>
@@ -416,6 +426,7 @@
                                     with
                                     a vibrant travel community. Join us to discover the beauty of journeys and make
                                     lasting memories.</p>
+
                                 <button class="cta">
                                     <span>See the Live Site</span>
                                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -478,7 +489,11 @@
     </main>
     <section>
         <div id="stats">
-            <h2 class="title">Github Stats</h2>
+            <div class="section-github">
+                <article class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+                    &#60;/GithubStats/&#62;</article>
+                <p class="sectionHeadingP"></p>
+            </div>
             <div id="githubstatsflex">
                 <div id="statsimg">
                     <img id="github-top-langs"
@@ -500,16 +515,90 @@
             </div>
 
         </div>
-        <div id="calendar">
+        <!-- <div id="calendar">
             <h2 style="color: black; font-family: Poppins, sans-serif; text-align: center;" class="title" class="calci">
                 Github
                 Calendar</h2>
             <div class="react-activity-calendar calendar">
                 Loading the data just for you.
             </div>
-        </div>
+        </div> -->
 
     </section>
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form id="contactForm" action="https://formspree.io/f/myyqrwdg" method="POST"
+                        name="submit-to-google-sheet">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" name="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="Email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="Subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="Message" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit" onclick="submitForm()">Send message</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Ready to take your project to the next level? Let's team up and leverage my skills as a Full
+                        Stack Web Developer to create something truly innovative and impactful.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <a href="#"> <i class="fas fa-envelope"></i> </a>
+                            <div class="info">
+                                <div class="head"></div>
+                                <div class="sub-title"> <a href="#" id="contact-email"> alipakkr24@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.linkedin.com/in/alipa-55b365285/" target="_blank"> <i
+                                    class="fab fa-linkedin"></i> </a>
+                            <div class="info">
+                                <div class="sub-titles"> <a href="https://www.linkedin.com/in/alipa-55b365285/"
+                                        id="contact-linkedin" target="_blank">Kirti Bhosale</a> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://github.com/Alipakkr" id="contact-github" target="_blank"> <i
+                                    class="fab fa-github"></i>
+                            </a>
+                            <div class="info">
+                                <div class="sub-title"> <a href="https://github.com/Alipakkr" id="contact-phone"
+                                        target="_blank">Alipakkr</a> </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <a href="#" id="contact-phone" target="_blank"><i class="fa-solid fa-phone"></i>
+                            </a>
+                            <div class="info">
+                                <div class="sub-title"> <a href="#" id="contact-phone" target="_blank">+91
+                                        8571989274</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- main ends here -->
 
