@@ -1981,7 +1981,7 @@ transition-duration: 1s;
     html {
         font-size: 45%;
     }
-    .skills-section,.about-section,.projects-section-div,.stats-section-container{
+    .skills-section,.about-section,.projects-section-div{
         width: 80%;
     }
     .info-div{
