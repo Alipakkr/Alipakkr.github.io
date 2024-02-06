@@ -695,7 +695,8 @@ noscript{
 /* contact email  start */
 .contact-btn-div{
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
+    /* padding-bottom: 40px; */
     height: fit-content;
     display: flex;
     align-items: center;
@@ -762,10 +763,10 @@ noscript{
     transform: translateY(-7px) translateX(-7px);
   }
   /* conatct email close  */
-.resume-btn {
-    z-index:9998;
+/* .resume-btn {
+    z-index:9998; */
     /* display: flex; */
-    align-items: center;
+    /* align-items: center;
     justify-content: flex-start;
     width: 45px;
     height: 45px;
@@ -783,10 +784,10 @@ noscript{
     rgba(150, 93, 233, 1) 10.8%,
     rgba(99, 88, 238, 1) 94.3%
   );
-  }
+  } */
   
   /* plus sign */
-  .sign {
+  /* .sign {
     width: 100%;
     transition-duration: .3s;
     display: flex;
@@ -800,9 +801,9 @@ noscript{
   
   .sign svg path {
     fill: white;
-  }
+  } */
   /* text */
-  .text {
+  /* .text {
     position: absolute;
     right: 0%;
     width: 0%;
@@ -812,9 +813,9 @@ noscript{
     font-size: 1em;
     font-weight: 600;
     transition-duration: .3s;
-  }
+  } */
   /* hover effect on button width */
-  .resume-btn:hover {
+  /* .resume-btn:hover {
     width: 130px;
     border-radius: 40px;
     transition-duration: .3s;
@@ -824,18 +825,18 @@ noscript{
     width: 30%;
     transition-duration: .3s;
     padding-left: 20px;
-  }
+  } */
   /* hover effect button's text */
-  .resume-btn:hover .text {
+  /* .resume-btn:hover .text {
     opacity: 1;
     width: 70%;
     transition-duration: .3s;
     padding-right: 10px;
-  }
+  } */
   /* button click effect*/
-  .resume-btn:active {
+  /* .resume-btn:active {
     transform: translate(2px ,2px);
-  }
+  } */
 /* landing page code ends here */
 
 /* about section starts from here */
@@ -854,13 +855,13 @@ noscript{
     align-items: center;
     justify-content: center;
 }
-.section-heading{
+.about-heading{
     width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.section-heading-article{
+.about-heading-article{
     font-size:3rem;
     font-family: fira code;
     font-weight: 500;
@@ -871,7 +872,7 @@ noscript{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.sectionHeadingP{
+.aboutsectionHeadingP{
     width: 300px;
     height: 1px;
     background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
@@ -974,7 +975,7 @@ noscript{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.skillsHeadingP{
+.skillssectionHeadingP{
     width: 300px;
     height: 1px;
     background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
@@ -1335,6 +1336,147 @@ noscript{
     transform: translate(0px,-20px);
     text-decoration: line-through var(--color-white);
 }
+/* Github stats start  */
+/* github */
+.stats-section-container{
+    /* margin-top: 150px; */
+    width: 75%;
+    padding-left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Github-heading{
+    width: 2%;
+    display: flex;
+    padding-bottom: 50px;
+    align-items: center;
+    padding-left: 180px;
+    gap: 10px;
+}
+.Github-heading-article{
+    font-size:3rem;
+    font-family: fira code;
+    font-weight: 500;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.GithubsectionHeadingP{
+    width: 300px;
+    height: 2px;
+    padding-left: 250px;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+}
+  #githubstatsflex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    gap: 5px;
+  }
+  
+  #statssecondcolumn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #github-top-langs {
+    height: 100%;
+  }
+  
+  #github-top-contribution {
+    height: 100%;
+  }
+  
+  #github-streak-stats {
+    margin-top: 5px;
+  }
+  
+  #statsimg img {
+    width: 100%;
+  }
+  #statsimg1 img {
+    width: 100%;
+  }
+  
+  .calendar {
+    width: 80%;
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 1050px) and (min-width: 700px) {
+    #container {
+      grid-template-columns: repeat(4, auto);
+    }
+    #githubstatsflex {
+      grid-template-columns: repeat(1, 1fr);
+      /* width: 130%; */
+      padding-right: 150px;
+      padding-left: -250px;
+      gap: 0px;
+    }
+    #github-streak-stats {
+      margin-top: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) and (min-width: 444px) {
+    #container {
+      grid-template-columns: repeat(3, auto);
+    }
+  
+    #githubstatsflex {
+      grid-template-columns: repeat(1, 1fr);
+      width: 70%;
+      gap: 0px;
+    }
+    #statssecondcolumn img {
+      margin-bottom: 4px;
+    }
+    #github-streak-stats {
+      margin-top: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 444px) and (min-width: 0px) {
+    #container {
+      grid-template-columns: repeat(2, auto);
+    }
+    #githubstatsflex {
+      grid-template-columns: repeat(1, 1fr);
+      width: 70%;
+      gap: 0px;
+    }
+    #statssecondcolumn img {
+      margin-bottom: 4px;
+    }
+    #github-streak-stats {
+      margin-top: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) and (min-width: 600px) {
+    .projectcardsmain {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .project-width {
+      width: 80%;
+    }
+    #github-streak-stats {
+      margin-top: 0px;
+    }
+  }
+
+/* Github stats end   */
+
 /* footer starts */
 .footercontainer{
     background-color: rgb(0, 0, 0);
@@ -1839,7 +1981,7 @@ transition-duration: 1s;
     html {
         font-size: 45%;
     }
-    .skills-section,.about-section,.projects-section-div{
+    .skills-section,.about-section,.projects-section-div,.stats-section-container{
         width: 80%;
     }
     .info-div{
@@ -1904,113 +2046,7 @@ transition-duration: 1s;
   
   
 
-/* github */
-#stats {
-    width: 85%;
-    margin-bottom: 40px;
-    padding-left: 300px;
-  }
-  
-  #githubstatsflex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-    margin: auto;
-    margin-bottom: 40px;
-    gap: 5px;
-  }
-  
-  #statssecondcolumn {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #github-top-langs {
-    height: 100%;
-  }
-  
-  #github-top-contribution {
-    height: 100%;
-  }
-  
-  #github-streak-stats {
-    margin-top: 5px;
-  }
-  
-  #statsimg img {
-    width: 100%;
-  }
-  #statsimg1 img {
-    width: 100%;
-  }
-  
-  .calendar {
-    width: 80%;
-    margin: auto;
-  }
-  
-  @media screen and (max-width: 1050px) and (min-width: 700px) {
-    #container {
-      grid-template-columns: repeat(4, auto);
-    }
-    #githubstatsflex {
-      grid-template-columns: repeat(1, 1fr);
-      /* width: 130%; */
-      padding-right: 150px;
-      padding-left: -250px;
-      gap: 0px;
-    }
-    #github-streak-stats {
-      margin-top: 0px;
-    }
-  }
-  
-  @media screen and (max-width: 700px) and (min-width: 444px) {
-    #container {
-      grid-template-columns: repeat(3, auto);
-    }
-  
-    #githubstatsflex {
-      grid-template-columns: repeat(1, 1fr);
-      width: 70%;
-      gap: 0px;
-    }
-    #statssecondcolumn img {
-      margin-bottom: 4px;
-    }
-    #github-streak-stats {
-      margin-top: 0px;
-    }
-  }
-  
-  @media screen and (max-width: 444px) and (min-width: 0px) {
-    #container {
-      grid-template-columns: repeat(2, auto);
-    }
-    #githubstatsflex {
-      grid-template-columns: repeat(1, 1fr);
-      width: 70%;
-      gap: 0px;
-    }
-    #statssecondcolumn img {
-      margin-bottom: 4px;
-    }
-    #github-streak-stats {
-      margin-top: 0px;
-    }
-  }
-  
-  @media screen and (max-width: 1050px) and (min-width: 600px) {
-    .projectcardsmain {
-      grid-template-columns: repeat(1, 1fr);
-    }
-    .project-width {
-      width: 80%;
-    }
-    #github-streak-stats {
-      margin-top: 0px;
-    }
-  }
+
   /* contect sectin css start hare */
 /* .contact  .title::after{
     content: "get in touch";
