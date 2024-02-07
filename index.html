@@ -81,7 +81,7 @@
                         <a href="#Contact" aria-label="Contact menu button">
                             <li class="Contact" data-aos="fade-down" data-aos-delay="850">&#60;/Contact&#62;</li>
                         </a>
-                        <a href="#resume" aria-label="resume menu button">
+                        <a href="https://drive.google.com/file/d/1IkaFgeR0VhnHQBuTrQbBNcWf9dMbvauT/view?usp=sharing" aria-label="resume menu button">
                             <li class="resume" data-aos="fade-down" data-aos-delay="1000">&#60;/Resume&#62;</li>
                         </a>
 
@@ -121,11 +121,11 @@
                     <li id="projects-mobile-tab" class="mobile-nav-menu-tabs-li projects" onclick="hidemenubyli()">
                         &#60;/Projects&#62;</li>
                 </a>
-                <a href="#Contact" tabindex="0" aria-label="Contact menu button">
+                <a href="#Contact" tabindex="0" aria-label="contact">
                     <li id="Contact-mobile-tab" class="mobile-nav-menu-tabs-li Contact" onclick="hidemenubyli()">
                         &#60;/Contact&#62;</li>
                 </a>
-                <a href="#resume" tabindex="0" aria-label="resume menu button">
+                <a href="https://drive.google.com/file/d/1IkaFgeR0VhnHQBuTrQbBNcWf9dMbvauT/view?usp=sharing" tabindex="0" aria-label="resume menu button">
                     <li id="resume-mobile-tab" class="mobile-nav-menu-tabs-li resume" onclick="hidemenubyli()">
                         &#60;/Resume&#62;</li>
                 </a>
@@ -325,7 +325,7 @@
         </section>
         <!-- skills section ends -->
         <!-- Project  section Start  -->
-        <section class="projects-section-container" >
+        <section class="projects-section-container">
             <div class="projects-section-div">
                 <div class="projects-heading">
                     <article class="projects-heading-article" tabindex="0" aria-label="My projects starts from here">
@@ -402,118 +402,124 @@
         </section>
 
 
-        <section>
-            <div class="stats-section-container">
-                <div class="Github-heading">
-                    <article class="Github-heading-article" tabindex="0" aria-label="My github starts from here">
+        <!-- github status -->
+    <section>
+        <div id="stats">
+            <!-- <h2 class="title">Github Stats</h2> -->\<div class="projects-heading">
+                    <article class="projects-heading-article" tabindex="0" aria-label="My projects starts from here">
                         &#60;/Github&#62;</article>
-                    <p class="GithubsectionHeadingP"></p>
+                    <p class="projectsHeadingP"></p>
                 </div>
-                <div id="githubstatsflex">
-                    <div id="statsimg">
-                        <img id="github-top-langs"
-                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alipakkr&theme=github_dark"
+            <div id="githubstatsflex">
+                <div id="statsimg">
+                    <img id="github-top-langs"
+                        src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Alipakkr&theme=dark"
+                        alt="err">
+                </div>
+                <!-- src="https://github-readme-stats.vercel.app/api?username=Alipakkr&show_icons=true&theme=github_dark" -->
+
+                <div id="statsimg1">
+                    <div id="statssecondcolumn">
+                        <img id="github-stats-card"
+                            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Alipakkr&theme=dark"
+                            alt="err">
+                        <img id="github-streak-stats"
+                            src="https://github-readme-streak-stats.herokuapp.com?user=Alipakkr&show_icons=true&theme=dark"
                             alt="err">
                     </div>
-                    <!-- src="https://github-readme-stats.vercel.app/api?username=Alipakkr&show_icons=true&theme=github_dark" -->
+                </div>
+            </div>
 
-                    <div id="statsimg1">
-                        <div id="statssecondcolumn">
-                            <img id="github-stats-card"
-                                src="https://github-readme-stats.vercel.app/api?username=Alipakkr&count_private=true&theme=github_dark"
-                                alt="err">
-                            <img id="github-streak-stats"
-                                src="https://github-readme-streak-stats.herokuapp.com?user=Alipakkr&show_icons=true&theme=dark"
-                                alt="err">
+        </div>
+        <!-- <div id="calendar">
+            <h2 style="color: black; font-family: Poppins, sans-serif; text-align: center;" class="title" class="calci">
+                Github
+                Calendar</h2>
+            <div class="react-activity-calendar calendar">
+                Loading the data just for you.
+            </div>
+        </div> -->
+
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <!-- <h2 class="title">Contact me</h2> -->
+            <div class="projects-heading">
+                <article class="projects-heading-article" tabindex="0" aria-label="My projects starts from here">
+                    &#60;/Contact&#62;</article>
+                <p class="projectsHeadingP"></p>
+            </div>
+            <div class="contact-content">
+                <div class="column right">
+                    <div class="text1">Message me</div>
+                    <form id="contactForm" action="https://formspree.io/f/myyqrwdg" method="POST"
+                        name="submit-to-google-sheet">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" name="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="Email" placeholder="Email" required>
+                            </div>
                         </div>
-                    </div>
+                        <div class="field">
+                            <input type="text" name="Subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="Message" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit" onclick="submitForm()">Send message</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
                 </div>
+                <div class="column left">
+                    <div class="text2">Get in Touch</div>
+                    <!-- <p class="paratext">Ready to take your project to the next level?  <br>Let's team up and leverage my skills as a Full
+                        Stack Web Developer to create something truly innovative and impactful.</p> -->
+                    <div class="icons">
+                        <div class="row">
+                            <a href="#"> <i class="fas fa-envelope"></i> </a>
+                             <div class="info">
+                                <div class="head"></div>
+                                <div class="sub-title"> <a href="#" id="contact-email"> alipakkr24@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.linkedin.com/in/alipa-55b365285/" target="_blank"> <i
+                                    class="fab fa-linkedin"></i> </a>
+                            <div class="info">
+                                <div class="sub-titles"> <a href="https://www.linkedin.com/in/alipa-55b365285/"
+                                        id="contact-linkedin" target="_blank">Alipa</a> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://github.com/Alipakkr" id="contact-github" target="_blank"> <i
+                                    class="fab fa-github"></i>
+                            </a>
+                            <div class="info">
+                                <div class="sub-title"> <a href="https://github.com/Alipakkr" id="contact-phone"
+                                        target="_blank">Alipakkr</a> </div>
+                            </div>
+                        </div>
 
-            </div>
-            <div id="calendar">
-                <h2 style="color: black; font-family: Poppins, sans-serif; text-align: center;" class="title"
-                    class="calci">
-                    Github
-                    Calendar</h2>
-                <div class="react-activity-calendar calendar">
-                    Loading the data just for you.
-                </div>
-            </div>
-
-        </section>
-        <!-- <section class="contact" id="contact">
-            <div class="max-width">
-                <h2 class="title">Contact me</h2>
-                <div class="contact-content">
-                    <div class="column right">
-                        <div class="text">Message me</div>
-                        <form id="contactForm" action="https://formspree.io/f/myyqrwdg" method="POST"
-                            name="submit-to-google-sheet">
-                            <div class="fields">
-                                <div class="field name">
-                                    <input type="text" placeholder="Name" name="Name" required>
-                                </div>
-                                <div class="field email">
-                                    <input type="email" name="Email" placeholder="Email" required>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <input type="text" name="Subject" placeholder="Subject" required>
-                            </div>
-                            <div class="field textarea">
-                                <textarea cols="30" rows="10" name="Message" placeholder="Message.."
-                                    required></textarea>
-                            </div>
-                            <div class="button-area">
-                                <button type="submit" onclick="submitForm()">Send message</button>
-                            </div>
-                        </form>
-                        <span id="msg"></span>
-                    </div>
-                    <div class="column left">
-                        <div class="text">Get in Touch</div>
-                        <p>Ready to take your project to the next level? Let's team up and leverage my skills as a Full
-                            Stack Web Developer to create something truly innovative and impactful.</p>
-                        <div class="icons">
-                            <div class="row">
-                                <a href="#"> <i class="fas fa-envelope"></i> </a>
-                                <div class="info">
-                                    <div class="head"></div>
-                                    <div class="sub-title"> <a href="#" id="contact-email"> alipakkr24@gmail.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <a href="https://www.linkedin.com/in/alipa-55b365285/" target="_blank"> <i
-                                        class="fab fa-linkedin"></i> </a>
-                                <div class="info">
-                                    <div class="sub-titles"> <a href="https://www.linkedin.com/in/alipa-55b365285/"
-                                            id="contact-linkedin" target="_blank">Kirti Bhosale</a> </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <a href="https://github.com/Alipakkr" id="contact-github" target="_blank"> <i
-                                        class="fab fa-github"></i>
-                                </a>
-                                <div class="info">
-                                    <div class="sub-title"> <a href="https://github.com/Alipakkr" id="contact-phone"
-                                            target="_blank">kirti136</a> </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <a href="#" id="contact-phone" target="_blank"><i class="fa-solid fa-phone"></i>
-                                </a>
-                                <div class="info">
-                                    <div class="sub-title"> <a href="#" id="contact-phone" target="_blank">+91
-                                            8571989274</a> </div>
-                                </div>
+                        <div class="row">
+                            <a href="#"  target="_blank"><i class="fa-solid fa-phone"></i>
+                            </a>
+                            <div class="info">
+                                <div class="sub-title"> <a href="#" target="_blank">+91
+                                        8571989274</a> </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </div>
+    </section>
 
     </main>
 
