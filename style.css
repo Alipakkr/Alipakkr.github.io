@@ -2125,7 +2125,7 @@ transition-duration: 1s;
     -webkit-text-fill-color: transparent;
 }
 .ContactHeadingP{
-    width: 370px;
+    width: 300px;
     height: 1px;
     background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
     background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
@@ -2338,12 +2338,15 @@ font-size: 30px;
         padding-left: 70px;
         padding-bottom: 30px;
     }
+    .ContactHeadingP{
+        width: 50%
+    }
 }
 
 /* Responsive styles for screens between 444px and 0px */
 @media screen and (max-width: 444px) and (min-width: 0px) {
     .contact .contact-content {
-        display: flex;
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
