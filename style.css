@@ -85,7 +85,7 @@ section .title::after {
 
 /* navbar styling */
 .navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -180,7 +180,8 @@ section .title::after {
 /* home1 section styling */
 .home1 {
   display: flex;
-  background: url("./src/jpg/pexels-photo-6449926.webp") no-repeat center;
+  /* background: url("./src/jpg/pexels-photo-6449926.webp") no-repeat center;
+   */
   background-color: #111;
   height: 100vh;
   color: #fff;
