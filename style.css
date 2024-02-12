@@ -89,8 +89,7 @@ section .title::after {
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 20px 0;
-  background-color: #111;
+  padding: 40px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
@@ -107,7 +106,7 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: #ae5030;
+  color: #fff;
   font-size: 35px;
   font-weight: 600;
 }
@@ -124,7 +123,7 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color: #ae5030;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   margin-left: 10px;
@@ -180,8 +179,7 @@ section .title::after {
 /* home1 section styling */
 .home1 {
   display: flex;
-  /* background: url("./src/jpg/pexels-photo-6449926.webp") no-repeat center;
-   */
+ 
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -215,7 +213,7 @@ section .title::after {
   margin: 5px 0;
 }
 .home1 .home1-content .text-3 span {
-  color: #ae5030;
+  color: #a48728;
   font-weight: 500;
 }
 .home1 .home1-content a {
@@ -271,14 +269,14 @@ section .title::after {
 }
 .aboutmain .aboutmain-content .right a {
   display: inline-block;
-  background-color: #ae5030;
-  color: white;
+  background: #0d1619;
+  color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  /* border: 2px solid #1b1a1b; */
+  border: 2px solid #1b1a1b;
   transition: all 0.3s ease;
 }
 .aboutmain .aboutmain-content .right a:hover {

@@ -65,19 +65,19 @@ $(document).ready(function () {
 //change the file here
 document.getElementById("resume-button-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1MPsIQhqKcZvmiddg6-l3l7f_DFy-l34T/view?usp=sharing",
+    "https://drive.google.com/file/d/1jYcf6Idzi0rr6_tblZpweK3gaplrQRQ5/view?usp=drive_link",
     `_blank`
   );
 };
 
 document.getElementById("resume-button-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1MPsIQhqKcZvmiddg6-l3l7f_DFy-l34T/view?usp=sharing",
+    "https://drive.google.com/file/d/1jYcf6Idzi0rr6_tblZpweK3gaplrQRQ5/view?usp=drive_link",
     `_blank`
   );
 };
 
-GitHubCalendar(".calendar", "Alipakkr", {
+GitHubCalendar(".calendar", "kirti136", {
   responsive: true,
   global_stats: true,
   tooltips: true,
