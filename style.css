@@ -2252,6 +2252,9 @@ section .title::after {
   .about-heading {
     margin-top: 20%;
   }
+  .calendarimg{
+width: 10%;
+  }
 }
 
 /* Responsive styles for screens between 700px and 444px */
@@ -2316,4 +2319,127 @@ section .title::after {
     .letsTalkBtn{
       width: 120px;
     }
+    .calendar{
+      margin: 30%;
+    }
+}
+.max-with {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#stat {
+  /* display: flex; */
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  width: 80%;
+  padding-left: 20%;
+  justify-content: space-between;
+}
+
+.react-activity-calendar,
+#github-stats-card,
+#github-top-langs,
+#github-streak-stats {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ht1 {
+  width: 100%;
+  height: auto;
+}
+
+/* GitHub Statistics title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-size: xx-large;
+}
+
+/* GitHub Statistics card */
+.react-activity-calendar,
+#github-stats-card,
+#github-top-langs,
+#github-streak-stats {
+  background-color: #f7f7f7;
+  align-items: center;
+  /* padding-left: 40%; */
+}
+
+/* Add hover effect */
+.react-activity-calendar:hover,
+#github-stats-card:hover,
+#github-top-langs:hover,
+#github-streak-stats:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Base styles */
+.statistics-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.statistics-card {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 1%;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.statistics-box {
+  padding: 20px;
+  text-align: center;
+  height: 150px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%; /* Add maximum width */
+}
+
+.statistics-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.statistics-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; 
+}
+
+.statistics-description {
+  font-size: 14px;
+  color: #666; 
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+/* Blue theme */
+.statistics-card {
+  background-color: #3498db; 
+  border: 1px solid #2980b9; 
+}
+
+.statistics-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.statistics-text,
+.statistics-description {
+  color: #fff; 
 }
