@@ -2247,7 +2247,7 @@ section .title::after {
     padding-top: 50px;
   }
   .project3 {
-    font-size: 30%;
+    font-size: xx-large;
   }
   .about-heading {
     margin-top: 20%;
@@ -2312,5 +2312,8 @@ section .title::after {
   .about-heading {
     
     margin-top: 50%;
+    }
+    .letsTalkBtn{
+      width: 120px;
     }
 }
