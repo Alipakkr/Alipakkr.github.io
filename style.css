@@ -134,7 +134,7 @@ body {
   position: relative;
   width: 40px;
   height: 40px;
-  background-image: url(src/png/crescent-moon\ \(1\).png);
+  background-image: url(src/png/moon.png);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -1017,16 +1017,18 @@ noscript {
   width: 100%;
 }
 .projects-section-div {
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .projects-heading {
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
   gap: 10px;
 }
 .projects-heading-article {
@@ -1120,17 +1122,8 @@ noscript {
 .faviconforProjectAquaregia {
   width: 20px;
 }
-.image-div {
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  padding-top: 70px;
-  padding-left: 10px;
-}
-.image-div img {
-  height: 100%;
-  /* border-top-left-radius:10px ; */
-}
+
+
 .ProjectHeading {
   color: var(--color-white);
   font-size: 3.4rem;
@@ -1458,8 +1451,8 @@ noscript {
   .about-section {
     width: 80%;
     /* padding-top: 860px; */
-        /* padding-top: 860px; */
-        /* margin-top: -40%; */
+    /* padding-top: 860px; */
+    /* margin-top: -40%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1644,59 +1637,63 @@ noscript {
     left: -20px;
     border-radius: 50%;
   }
-  .section-heading {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .section-heading-article {
-    font-size: 3rem;
-    font-family: fira code;
-    font-weight: 500;
-    background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#b0f3f1),
-      to(#ffcfdf)
-    );
-    background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
-    background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .sectionHeadingP {
-    width: 300px;
-    height: 1px;
-    background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#b0f3f1),
-      to(#ffcfdf)
-    );
-    background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
-    background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
-  }
-  .projects-section-div {
+}
+.section-heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-heading-article {
+  font-size: 3rem;
+  font-family: fira code;
+  font-weight: 500;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#b0f3f1),
+    to(#ffcfdf)
+  );
+  background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
+  background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sectionHeadingP {
+  width: 300px;
+  height: 1px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#b0f3f1),
+    to(#ffcfdf)
+  );
+  background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
+  background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+}
+.projects-section-div {
+  width: 80%;
+}
+.project-box {
+  flex-direction: column;
+  height: 800px;
+}
+.info-div {
+  width: 100%;
+  height: 50%;
+}
+.image-div {
     width: 80%;
-  }
-  .project-box {
-    flex-direction: column;
-    height: 800px;
-  }
-  .info-div {
-    width: 100%;
-    height: 50%;
-  }
-  .image-div {
-    padding: 0;
-    width: 100%;
-    height: 50%;
-    padding-left: 80px;
-  }
+    /* height: 35%; */
+    margin: auto;
+  /* padding-left: 80px; */
+}
+.image-div img {
+  height: 73%;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1793,10 +1790,7 @@ noscript {
   }
   .image-div {
     height: 40%;
-    padding-left: 50px;
-  }
-  .image-div img {
-    border-top-left-radius: 10px;
+    /* padding-left: 50px; */
   }
 }
 @media screen and (max-width: 430px) {
@@ -1855,10 +1849,10 @@ noscript {
 }
 
 /* github */
-#stats {
+#stat {
   width: 100%;
   margin-bottom: 40px;
-  /* border: 3px solid white ; */
+  /* margin: auto; */
   height: auto;
 }
 .Github-heading {
@@ -2050,10 +2044,6 @@ noscript {
     width: 50%;
   }
 }
-/* 
-@media screen and (max-width: 700px) and (min-width: 0px) {
-  
-} */
 
 .Contact-heading {
   width: 100%;
@@ -2213,10 +2203,9 @@ noscript {
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 230px;
+  padding-left: 400px;
   padding-bottom: 70px;
   gap: 10px;
-
   align-items: center;
   justify-content: space-between;
 }
@@ -2252,8 +2241,8 @@ section .title::after {
   .about-heading {
     margin-top: 20%;
   }
-  .calendarimg{
-width: 10%;
+  .calendarimg {
+    width: 10%;
   }
 }
 
@@ -2284,7 +2273,7 @@ width: 10%;
   }
   .about-heading {
     margin-top: 10%;
-    }
+  }
 }
 
 /* Responsive styles for screens between 444px and 0px */
@@ -2313,15 +2302,14 @@ width: 10%;
     font-size: 10px;
   }
   .about-heading {
-    
     margin-top: 50%;
-    }
-    .letsTalkBtn{
-      width: 120px;
-    }
-    .calendar{
-      margin: 30%;
-    }
+  }
+  .letsTalkBtn {
+    width: 120px;
+  }
+  .calendar {
+    margin: 30%;
+  }
 }
 .max-with {
   max-width: 800px;
@@ -2380,8 +2368,6 @@ width: 10%;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-
-
 /* Base styles */
 .statistics-container {
   max-width: 800px;
@@ -2415,12 +2401,12 @@ width: 10%;
 .statistics-text {
   font-size: 24px;
   font-weight: bold;
-  color: #333; 
+  color: #333;
 }
 
 .statistics-description {
   font-size: 14px;
-  color: #666; 
+  color: #666;
   margin-top: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2430,8 +2416,8 @@ width: 10%;
 
 /* Blue theme */
 .statistics-card {
-  background-color: #3498db; 
-  border: 1px solid #2980b9; 
+  background-color: #3498db;
+  border: 1px solid #2980b9;
 }
 
 .statistics-card:hover {
@@ -2441,5 +2427,5 @@ width: 10%;
 
 .statistics-text,
 .statistics-description {
-  color: #fff; 
+  color: #fff;
 }
