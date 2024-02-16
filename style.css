@@ -2025,7 +2025,7 @@ noscript {
 .Contactsection .Contact-content .row {
   display: flex;
   height: 65px;
-  width: 650px;
+  /* width: 650px; */
   padding-left: 330px;
   font-size: 10px;
   align-items: center;
@@ -2223,7 +2223,7 @@ noscript {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 51px;
+    padding-left: 41px;
     /* padding-top: 70px; */
     /* padding-bottom: 70px; */
   }
@@ -2266,4 +2266,5 @@ noscript {
   .Contactsection .Contact-content .row {
     padding-left: 50%;
   }
+
 }
