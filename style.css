@@ -1123,7 +1123,6 @@ noscript {
   width: 20px;
 }
 
-
 .ProjectHeading {
   color: var(--color-white);
   font-size: 3.4rem;
@@ -1686,9 +1685,9 @@ noscript {
   height: 50%;
 }
 .image-div {
-    width: 80%;
-    /* height: 35%; */
-    margin: auto;
+  width: 80%;
+  /* height: 35%; */
+  margin: auto;
   /* padding-left: 80px; */
 }
 .image-div img {
@@ -1910,8 +1909,6 @@ noscript {
   margin-top: 5px;
 }
 
-
-
 #statsimg img {
   width: 100%;
 }
@@ -2011,69 +2008,72 @@ noscript {
 }
 /* contact  */
 
-.Contact .Contact-content .column {
+.Contactsection .Contact-content .column {
   width: calc(50% - 30px);
 }
-.Contact .Contact-content .text {
+.Contactsection .Contact-content .text {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-.Contact .Contact-content .left p {
+.Contactsection .Contact-content .left p {
   text-align: justify;
 }
-.Contact .Contact-content .left .icons {
+.Contactsection .Contact-content .left .icons {
   margin: 10px 0;
 }
-.Contact .Contact-content .row {
+.Contactsection .Contact-content .row {
   display: flex;
   height: 65px;
+  width: 650px;
+  padding-left: 330px;
+  font-size: 10px;
   align-items: center;
 }
-.Contact .Contact-content .row .info {
+.Contactsection .Contact-content .row .info {
   margin-left: 30px;
 }
-.Contact .Contact-content .row i {
+.Contactsection .Contact-content .row i {
   font-size: 25px;
   color: white;
 }
 
-.Contact .Contact-content .row div a:hover {
+.Contactsection .Contact-content .row div a:hover {
   color: white;
 }
 
-.Contact .Contact-content .info .head {
+.Contactsection .Contact-content .info .head {
   font-weight: 500;
 }
 
-.Contact .Contact-content .info a,
-.Contact .Contact-content .info a:hover,
-.Contact .Contact-content .info a:link {
+.Contactsection .Contact-content .info a,
+.Contactsection .Contact-content .info a:hover,
+.Contactsection .Contact-content .info a:link {
   text-decoration: none;
   color: white;
 }
 
-.Contact .Contact-content .info .sub-title {
+.Contactsection .Contact-content .info .sub-title {
   color: white;
 }
-.Contact .right form .fields {
+.Contactsection .right form .fields {
   display: flex;
 }
-.Contact .right form .field,
-.Contact .right form .fields .field {
+.Contactsection .right form .field,
+.Contactsection .right form .fields .field {
   height: 45px;
   width: 100%;
   margin-bottom: 15px;
 }
-.Contact .right form .textarea {
+.Contactsection .right form .textarea {
   height: 80px;
   width: 100%;
 }
-.Contact .right form .name {
+.Contactsection .right form .name {
   margin-right: 10px;
 }
-.Contact .right form .field input,
-.Contact .right form .textarea textarea {
+.Contactsection .right form .field input,
+.Contactsection .right form .textarea textarea {
   height: 100%;
   width: 100%;
   border: 1px solid lightgrey;
@@ -2084,15 +2084,15 @@ noscript {
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
 }
-.Contact .right form .field input:focus,
-.Contact .right form .textarea textarea:focus {
+.Contactsection .right form .field input:focus,
+.Contactsection .right form .textarea textarea:focus {
   border-color: #b3b3b3;
 }
-.Contact .right form .textarea textarea {
+.Contactsection .right form .textarea textarea {
   padding-top: 10px;
   resize: none;
 }
-.Contact .right form .button-area {
+.Contactsection .right form .button-area {
   display: flex;
   align-items: center;
 }
@@ -2181,34 +2181,63 @@ noscript {
   background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
 }
 
-
-
 /* Responsive styles for screens between 1000px and 700px */
 @media screen and (max-width: 1050px) and (min-width: 700px) {
-
   .project3 {
     font-size: xx-large;
   }
   .about-heading {
     margin-top: 20%;
   }
-
+  .Contact-heading {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .ContactHeadingP {
+    width: 300px;
+    height: 1px;
+  }
+  /* .Contact-content{
+     margin-left: 40%;
+    } */
+  .column left {
+    margin-left: 210px;
+  }
 }
 
 /* Responsive styles for screens between 700px and 444px */
 @media screen and (max-width: 700px) and (min-width: 444px) {
- 
   .project3 {
     font-size: 20%;
   }
   .about-heading {
     margin-top: 10%;
   }
+  .Contact-heading {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 51px;
+    /* padding-top: 70px; */
+    /* padding-bottom: 70px; */
+  }
+  .ContactHeadingP {
+    width: 300px;
+    height: 1px;
+  }
+  .Contactsection .Contact-content .row {
+    padding-left: 130px;
+  }
 }
 
 /* Responsive styles for screens between 444px and 0px */
 @media screen and (max-width: 444px) and (min-width: 0px) {
- 
   .project3 {
     font-size: 10px;
   }
@@ -2218,15 +2247,23 @@ noscript {
   .letsTalkBtn {
     width: 120px;
   }
-
+  .Contact-heading {
+    width: 88%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+    /* padding-top: 70px; */
+    /* padding-bottom: 70px; */
+  }
+  .ContactHeadingP {
+    width: 300px;
+    height: 1px;
+  }
+  /* .Contactsection .Contact-content .row{
+    margin: auto;
+  } */
+  .Contactsection .Contact-content .row {
+    padding-left: 50%;
+  }
 }
-.max-with {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-
-/* skilsssss
-
-
-
