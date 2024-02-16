@@ -1715,12 +1715,12 @@ noscript {
   #info-para {
     width: 100%;
   }
-  .contact {
+  /* .contact {
    border: 2px solid white;
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
-  }
+  } */
   .setting-container {
     margin-left: 0px;
   }
@@ -1898,23 +1898,19 @@ noscript {
   margin-bottom: 40px;
   gap: 5px;
 }
-
+#github-top-langs {
+  height: 100%;
+}
 #statssecondcolumn {
   display: flex;
   flex-direction: column;
 }
 
-#github-top-langs {
-  height: 100%;
-}
-
-#github-top-contribution {
-  height: 100%;
-}
-
 #github-streak-stats {
   margin-top: 5px;
 }
+
+
 
 #statsimg img {
   width: 100%;
@@ -2024,11 +2020,11 @@ noscript {
     gap: 0px;
   }
   .Github-heading {
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 70px;
+    padding-left: 55px;
     padding-bottom: 30px;
   }
   #statssecondcolumn img {
@@ -2082,182 +2078,24 @@ noscript {
   background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
   background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
 }
-.contact .contact-content .column {
-  width: calc(50% - 30px);
-}
-.contact .contact-content .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-/* .text1 {
-  color: white;
-  padding-bottom: 70px;
-  font-size: 30px;
-} */
-.paratext {
-  color: white;
-}
-.text {
-  color: white;
-  padding-bottom: 44px;
-  font-size: 30px;
-}
-.contact .contact-content .left p {
-  text-align: justify;
-}
-.contact .contact-content .left .icons {
-  margin: 10px 0;
-}
-.contact .contact-content .row {
-  display: flex;
-  height: 65px;
-  align-items: center;
-}
-.contact .contact-content .row .info {
-  margin-left: 30px;
-}
-.contact .contact-content .row i {
-  font-size: 25px;
-  color: white;
-}
 
-.contact .contact-content .row div a:hover {
-  color: white;
-}
 
-.contact .contact-content .info .head {
-  font-weight: 500;
-}
-
-.contact .contact-content .info a,
-.contact .contact-content .info a:hover,
-.contact .contact-content .info a:link {
-  text-decoration: none;
-  color: white;
-}
-
-.contact .contact-content .info .sub-title {
-  color: white;
-}
-.contact .right form .fields {
-  display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field {
-  height: 45px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-.contact .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-.contact .right form .name {
-  margin-right: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-  height: 100%;
-  width: 100%;
-  border: 1px solid white;
-  border-radius: 6px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus {
-  border-color: #b3b3b3;
-}
-.contact .right form .textarea textarea {
-  padding-top: 10px;
-  resize: none;
-}
-.contact .right form .button-area {
-  display: flex;
-  align-items: center;
-}
-.right form .button-area button {
-  color: white;
-  display: block;
-  width: 160px !important;
-  height: 45px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: violet;
-  border: none;
-  transition: all 0.3s ease;
-}
-
-/* contact */
-.contact .contact-content {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 280px;
-  padding-bottom: 70px;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-between;
-}
-section .title::after {
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  font-size: 20px;
-  color: white;
-  padding: 0 5px;
-  background: white;
-  transform: translateX(-50%);
-}
 
 /* Responsive styles for screens between 1000px and 700px */
 @media screen and (max-width: 1050px) and (min-width: 700px) {
-  /* .contact .contact-content {
-    flex-direction: column;
-    padding-left: 0px;
-  } */
-  /* .Contact-heading {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-left: 120px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-  } */
+
   .project3 {
     font-size: xx-large;
   }
   .about-heading {
     margin-top: 20%;
   }
-  .calendarimg {
-    width: 10%;
-  }
+
 }
 
 /* Responsive styles for screens between 700px and 444px */
 @media screen and (max-width: 700px) and (min-width: 444px) {
-  /* .contact .contact-content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    padding-left: 70px;
-  }
-  .contact .contact-content .column {
-    width: 80%;
-  } */
-/*   
-  .ContactHeadingP {
-    width: 50%;
-  } */
+ 
   .project3 {
     font-size: 20%;
   }
@@ -2268,26 +2106,7 @@ section .title::after {
 
 /* Responsive styles for screens between 444px and 0px */
 @media screen and (max-width: 444px) and (min-width: 0px) {
-  /* .contact .contact-content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    padding-left: 60px;
-  } */
-  /* .Contact-heading {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-left: 60px;
-    padding-bottom: 30px;
-  } */
-  /* .ContactHeadingP {
-    width: 45%;
-  } */
-  /* .contact .contact-content .column {
-    width: 80%;
-  } */
+ 
   .project3 {
     font-size: 10px;
   }
@@ -2297,172 +2116,15 @@ section .title::after {
   .letsTalkBtn {
     width: 120px;
   }
-  .calendar {
-    margin: 30%;
-  }
+
 }
 .max-with {
   max-width: 800px;
   margin: 0 auto;
 }
 
-#stat {
-  /* display: flex; */
-  flex-wrap: wrap;
-  height: auto;
-  align-items: center;
-  width: 80%;
-  padding-left: 20%;
-  justify-content: space-between;
-}
-
-.react-activity-calendar,
-#github-stats-card,
-#github-top-langs,
-#github-streak-stats {
-  margin-bottom: 20px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.ht1 {
-  width: 100%;
-  height: auto;
-}
-
-/* GitHub Statistics title */
-.title {
-  text-align: center;
-  margin-bottom: 20px;
-  color: white;
-  font-size: xx-large;
-}
-
-/* GitHub Statistics card */
-.react-activity-calendar,
-#github-stats-card,
-#github-top-langs,
-#github-streak-stats {
-  background-color: #f7f7f7;
-  align-items: center;
-  /* padding-left: 40%; */
-}
-
-/* Add hover effect */
-.react-activity-calendar:hover,
-#github-stats-card:hover,
-#github-top-langs:hover,
-#github-streak-stats:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Base styles */
-.statistics-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.statistics-card {
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  margin: 1%;
-  border-radius: 5px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.statistics-box {
-  padding: 20px;
-  text-align: center;
-  height: 150px; /* Set a fixed height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 100%; /* Add maximum width */
-}
-
-.statistics-icon {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.statistics-text {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-.statistics-description {
-  font-size: 14px;
-  color: #666;
-  margin-top: 5px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: break-word;
-}
-
-/* Blue theme */
-.statistics-card {
-  background-color: #3498db;
-  border: 1px solid #2980b9;
-}
-
-.statistics-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.statistics-text,
-.statistics-description {
-  color: #fff;
-}
 
 /* skilsssss
 
 
 
-.frontend-dev-heading{
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-weight: 900;
-  color: white;
-  height: 100px;
-  letter-spacing: 5px;
-  background-image: -webkit-gradient(linear,left top,right top,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-  background-image: -webkit-linear-gradient(left,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-  background-image: linear-gradient(90deg,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.tech-stack-wrapper{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap:50px;
-  margin-top: 50px;
-
-}
-.tech-stack-box{
-  width: 160px;
-  height: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 30px;
-  background-image: linear-gradient(to bottom right,var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
-  border: 1px solid var(--tech-stack-box-border-color);
-  /* box-shadow: 0px 10px 20px var(--color-shadowDark); */
-/* }
-.tech-stack-box img{
-  width: 80%;
-} */ 
