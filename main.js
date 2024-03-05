@@ -191,7 +191,7 @@ window.addEventListener('resize', windowResize);
 document.getElementById('resume-button-2').onclick = () => {
   // Delay the download event by 3 seconds
   window.open(
-    "https://drive.google.com/file/d/10jgXLbJ_7aYASdS1uTUJ2s2Q5z9bK689/view?usp=sharing"
+    "https://drive.google.com/file/d/1jzGh1aVCUXkFNtWgAmPmIpwLOYLR-v2t/view?usp=sharing"
   ),
     setTimeout(() => {
       // Trigger the download after the delay (replace 'resume-link-2' with your actual element ID)
@@ -201,7 +201,7 @@ document.getElementById('resume-button-2').onclick = () => {
 // document.getElementById("Resume").onclick = () => {
 //   // Delay the download event by 3 seconds
 //   window.open(
-//     "https://drive.google.com/file/d/10jgXLbJ_7aYASdS1uTUJ2s2Q5z9bK689/view?usp=sharing"
+//     "https://drive.google.com/file/d/14s1Gd-HQYLgBfbP-qUYYc_x0ba35_k3n/view?usp=sharing"
 //   ),
 //     setTimeout(() => {
 //       // Trigger the download after the delay (replace 'resume-link-2' with your actual element ID)
