@@ -1157,7 +1157,7 @@ noscript {
   background-color: var(--color-navbarBorder-dark);
   width: 45px;
   height: 45px;
-  transition: all 0.3s ;
+  transition: all 0.3s ease;
 }
 /*  parent div's child  */
 .cta span {
