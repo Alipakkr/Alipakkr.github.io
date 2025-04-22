@@ -836,7 +836,7 @@ noscript {
 .dp::after {
   content: "";
   background-color: transparent;
-  height: 300px;
+  height: 340px;
   width: 300px;
   position: absolute;
   z-index: -2;
