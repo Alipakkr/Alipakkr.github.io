@@ -856,7 +856,7 @@ noscript {
  */
 /* skills section starts */
 .skills-section-container {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   width: 100%;
   display: flex;
   align-items: center;
