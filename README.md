@@ -23,14 +23,8 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/portfolio.git
+git clone [https://github.com/yourusername/portfolio.git](https://github.com/Alipakkr/Alipakkr.github.io.git)
 
-# Navigate into the project directory
-cd portfolio
+# Run the Portfolio use index.html
 
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
 
