@@ -871,7 +871,7 @@ noscript {
   justify-content: center;
 }
 .skills-heading {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -894,9 +894,8 @@ noscript {
   -webkit-text-fill-color: transparent;
 }
 .skillssectionHeadingP {
-  width: 180px;
+  width: 300px;
   height: 1px;
-   margin: 0 auto;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -2643,15 +2642,14 @@ noscript {
   100% { width: 180px; }
 }
 
+/* Projects Grid */
 .projects-grid {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  width: 80%;
-  margin: 0 auto; /* this will center it horizontally */
+  width: 100%;
 }
-
 
 /* Project Card */
 .project-card {
@@ -2948,13 +2946,10 @@ noscript {
 
 /* ===== EDUCATION TIMELINE ===== */
 .timeline-section {
- 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4rem;
-  width: 78%;
-  margin: 0 auto; /* this will center it horizontally */
+  /* background: radial-gradient(ellipse at center, #0f0f1a 0%, #07070e 100%); */
+  padding: 6rem 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .timeline-container {
@@ -2997,10 +2992,10 @@ noscript {
 
 .timeline-line {
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 0;
   bottom: 0;
-  width: 5px;
+  width: 2px;
   background: linear-gradient(to bottom, 
     transparent 0%, 
     rgba(8, 247, 254, 0.6) 10%, 
