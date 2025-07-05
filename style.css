@@ -2611,12 +2611,11 @@ noscript {
 /* Base Styles */
 .projects-section {
   /* background: radial-gradient(ellipse at center, var(--dark-bg) 0%, var(--darker-bg) 100%); */
-width: 100%;
-    display: flex
-;
-    align-items: center;
-    padding-top: 70px;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  justify-content: center;
 }
 
 /* .projects-section::before {
@@ -2641,7 +2640,6 @@ width: 100%;
 
 .projects-container {
   width: 70%;
-
 }
 
 /* Section Header */
@@ -3222,17 +3220,15 @@ width: 100%;
 
 /* Contact Section Styles */
 .contact-section {
-  padding: 5rem 0;
-  /* background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%); */
-  color: #e6e6e6;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  justify-content: center;
 }
 
 .contact-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  width: 70%;
 }
 
 .section-header {
