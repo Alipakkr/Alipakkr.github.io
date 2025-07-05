@@ -288,7 +288,7 @@ noscript {
   cursor: url("click.png"), url("click.png");
   cursor: url("click.png"), move;
   cursor: url("click.png") 10 12;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-menu-tabs-ul li:hover:before {
@@ -480,7 +480,7 @@ noscript {
   display: flex;
   align-items: flex-end;
   color: var(--color-white);
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 @-webkit-keyframes vibrate-1 {
@@ -767,7 +767,7 @@ noscript {
 
 .about-heading-article {
   font-size: 3rem;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   background-image: -webkit-gradient(
     linear,
@@ -878,7 +878,7 @@ noscript {
 }
 .skills-heading-article {
   font-size: 3rem;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   background-image: -webkit-gradient(
     linear,
@@ -917,7 +917,7 @@ noscript {
 .language-speak article {
   font-size: 2rem;
   font-weight: 600;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: var(--color-white);
 }
 .frontend-dev-section {
@@ -995,7 +995,7 @@ noscript {
 .language-name article {
   font-size: 2.5rem;
   font-weight: 700;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: var(--color-white);
   transform: translateZ(50px);
 }
@@ -1033,7 +1033,7 @@ noscript {
 }
 .projects-heading-article {
   font-size: 3rem;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   background-image: -webkit-gradient(
     linear,
@@ -1303,7 +1303,7 @@ noscript {
 }
 .two-words article {
   font-size: 3rem;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 .social-media-container {
   display: flex;
@@ -1358,7 +1358,7 @@ noscript {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 .logos {
   display: flex;
@@ -1409,7 +1409,7 @@ noscript {
 .footer-bottom article {
   color: rgb(176, 176, 176);
   font-size: 1.5rem;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 .fa-copyright {
   font-size: 1.5rem;
@@ -1602,7 +1602,7 @@ noscript {
     font-weight: 600;
     position: relative;
     cursor: pointer;
-     font-family: 'Rajdhani', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     color: var(--color-white);
     height: 30px;
     width: fit-content;
@@ -1646,7 +1646,7 @@ noscript {
 }
 .section-heading-article {
   font-size: 3rem;
-   font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   background-image: -webkit-gradient(
     linear,
@@ -1863,7 +1863,7 @@ noscript {
 }
 .Github-heading-article {
   font-size: 3rem;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   background-image: -webkit-gradient(
     linear,
@@ -2083,7 +2083,7 @@ noscript {
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   transition: all 0.3s ease;
 }
 .Contactsection .right form .field input:focus,
@@ -2154,7 +2154,7 @@ noscript {
 }
 .Contact-heading-article {
   font-size: 3rem;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   background-image: -webkit-gradient(
     linear,
@@ -2268,13 +2268,7 @@ noscript {
   .Contactsection .Contact-content .row {
     padding-left: 50%;
   }
-
 }
-
-
-
-
-
 
 /* Futuristic Cyber UI Styles */
 :root {
@@ -2287,24 +2281,48 @@ noscript {
 }
 
 @keyframes glitch {
-  0% { transform: translate(0); }
-  20% { transform: translate(-2px, 2px); }
-  40% { transform: translate(-2px, -2px); }
-  60% { transform: translate(2px, 2px); }
-  80% { transform: translate(2px, -2px); }
-  100% { transform: translate(0); }
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 @keyframes pulse {
-  0% { opacity: 0.2; }
-  50% { opacity: 1; }
-  100% { opacity: 0.2; }
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
 }
 
 @keyframes hologram-glow {
-  0% { box-shadow: 0 0 10px var(--neon-blue); }
-  50% { box-shadow: 0 0 20px var(--neon-pink); }
-  100% { box-shadow: 0 0 10px var(--neon-blue); }
+  0% {
+    box-shadow: 0 0 10px var(--neon-blue);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--neon-pink);
+  }
+  100% {
+    box-shadow: 0 0 10px var(--neon-blue);
+  }
 }
 
 .experience-container {
@@ -2332,13 +2350,18 @@ noscript {
 }
 
 .holographic-ui::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink), var(--neon-green));
+  background: linear-gradient(
+    90deg,
+    var(--neon-blue),
+    var(--neon-pink),
+    var(--neon-green)
+  );
 }
 
 .experience-header {
@@ -2349,7 +2372,7 @@ noscript {
 }
 
 .neon-heading {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -2359,7 +2382,7 @@ noscript {
 .neon-effect {
   /* color: var(--neon-blue);
    */
-   color: white;
+  color: white;
   text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--hologram-blue);
 }
 
@@ -2368,7 +2391,7 @@ noscript {
   color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 20px;
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 1rem;
   /* border: 1px solid var(--neon-green); */
 }
@@ -2382,13 +2405,17 @@ noscript {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle, var(--neon-blue) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    var(--neon-blue) 1px,
+    transparent 1px
+  );
   background-size: 15px 15px;
   opacity: 0.3;
 }
 
 .cyber-role {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 2rem;
   color: cyan;
   margin-bottom: 1.5rem;
@@ -2422,7 +2449,7 @@ noscript {
   color: white;
   padding: 0.5rem 1.2rem;
   border-radius: 20px;
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 1rem;
   border: cyan;
   transition: all 0.3s ease;
@@ -2453,7 +2480,7 @@ noscript {
   animation: hologram-glow 2s infinite;
 }
 .hologram-project::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2463,7 +2490,7 @@ noscript {
 }
 
 .project-title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   color: var(--neon-blue);
   margin-bottom: 0.5rem;
@@ -2472,7 +2499,7 @@ noscript {
 }
 
 .project-desc {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: #a0a0a0;
   font-size: 0.9rem;
   margin-bottom: 1rem;
@@ -2488,7 +2515,7 @@ noscript {
   display: flex;
   align-items: center;
   margin-bottom: 0.8rem;
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: #fff;
   font-size: 0.95rem;
   line-height: 1;
@@ -2513,7 +2540,12 @@ noscript {
 .achievement-beam {
   position: relative;
   padding: 1.5rem;
-  background: linear-gradient(90deg, transparent, rgba(8, 247, 254, 0.1), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(8, 247, 254, 0.1),
+    transparent
+  );
   text-align: center;
 }
 .beam-line {
@@ -2522,10 +2554,15 @@ noscript {
   left: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--neon-blue), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--neon-blue),
+    transparent
+  );
 }
 .beam-text {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: var(--neon-green);
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -2594,8 +2631,12 @@ noscript {
 } */
 
 @keyframes scanline {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(100vh); }
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
 }
 
 .projects-container {
@@ -2614,7 +2655,7 @@ noscript {
 }
 
 .section-title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 700;
   color: var(--neon-blue);
@@ -2626,7 +2667,7 @@ noscript {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   left: 50%;
@@ -2638,8 +2679,12 @@ noscript {
 }
 
 @keyframes pulseWidth {
-  0% { width: 120px; }
-  100% { width: 180px; }
+  0% {
+    width: 120px;
+  }
+  100% {
+    width: 180px;
+  }
 }
 
 /* Projects Grid */
@@ -2672,13 +2717,17 @@ noscript {
 }
 
 .project-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(8, 247, 254, 0.1) 0%, transparent 50%);
+  background: linear-gradient(
+    135deg,
+    rgba(8, 247, 254, 0.1) 0%,
+    transparent 50%
+  );
   z-index: -1;
 }
 
@@ -2708,20 +2757,20 @@ noscript {
 } */
 
 .project-name {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: clamp(1.5rem, 3vw, 2rem);
   color: var(--text-primary);
   margin-bottom: 1.5rem;
   position: relative;
   display: inline-block;
   position: absolute;
-    margin-top: 2%;
-    margin-left: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
   letter-spacing: 1px;
 }
 
 .project-name::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -8px;
   left: 0;
@@ -2736,7 +2785,7 @@ noscript {
 }
 
 .project-description {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 2rem;
@@ -2750,12 +2799,13 @@ noscript {
   margin-bottom: 2rem;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   display: inline-flex;
   align-items: center;
   padding: 1rem 2rem;
   border-radius: 8px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 600;
   font-size: clamp(0.9rem, 1.1vw, 1.1rem);
   letter-spacing: 1.5px;
@@ -2791,12 +2841,14 @@ noscript {
   transform: translateY(-3px);
 }
 
-.btn-primary svg, .btn-secondary svg {
+.btn-primary svg,
+.btn-secondary svg {
   margin-left: 0.8rem;
   transition: transform 0.3s ease;
 }
 
-.btn-primary:hover svg, .btn-secondary:hover svg {
+.btn-primary:hover svg,
+.btn-secondary:hover svg {
   transform: translateX(5px);
 }
 
@@ -2813,7 +2865,7 @@ noscript {
   color: var(--neon-green);
   padding: 0.6rem 1rem;
   border-radius: 6px;
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: clamp(0.7rem, 0.9vw, 0.9rem);
   border: 1px solid var(--neon-green);
   transition: all 0.3s ease;
@@ -2822,13 +2874,18 @@ noscript {
 }
 
 .tech-tag::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(9, 251, 211, 0.4), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(9, 251, 211, 0.4),
+    transparent
+  );
   transition: all 0.6s ease;
 }
 
@@ -2861,24 +2918,40 @@ noscript {
 }
 
 .project-image::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(15, 15, 26, 0.8) 0%, transparent 30%);
+  background: linear-gradient(
+    to top,
+    rgba(15, 15, 26, 0.8) 0%,
+    transparent 30%
+  );
   z-index: 1;
 }
 
 /* Glitch Effect */
 @keyframes glitch {
-  0% { transform: translate(0); }
-  20% { transform: translate(-3px, 3px); }
-  40% { transform: translate(-3px, -3px); }
-  60% { transform: translate(3px, 3px); }
-  80% { transform: translate(3px, -3px); }
-  100% { transform: translate(0); }
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-3px, 3px);
+  }
+  40% {
+    transform: translate(-3px, -3px);
+  }
+  60% {
+    transform: translate(3px, 3px);
+  }
+  80% {
+    transform: translate(3px, -3px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 .project-card:hover .project-name {
@@ -2891,7 +2964,7 @@ noscript {
     flex-direction: column;
     max-width: 700px;
   }
-  
+
   .project-image {
     min-height: 300px;
     order: -1;
@@ -2902,21 +2975,22 @@ noscript {
   .projects-section {
     padding: 6rem 1.5rem;
   }
-  
+
   .section-header {
     margin-bottom: 3rem;
   }
-  
+
   .project-content {
     padding: 2rem;
   }
-  
+
   .project-links {
     flex-direction: column;
     gap: 1rem;
   }
-  
-  .btn-primary, .btn-secondary {
+
+  .btn-primary,
+  .btn-secondary {
     width: 100%;
     justify-content: center;
   }
@@ -2926,23 +3000,20 @@ noscript {
   .projects-section {
     padding: 4rem 1rem;
   }
-  
+
   .section-title {
     letter-spacing: 2px;
   }
-  
+
   .project-content {
     padding: 1.5rem;
   }
-  
+
   .project-logo {
     width: 50px;
     height: 50px;
   }
 }
-
-
-
 
 /* ===== EDUCATION TIMELINE ===== */
 .timeline-section {
@@ -2964,7 +3035,7 @@ noscript {
 }
 
 .section-title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: #08f7fe;
@@ -2975,7 +3046,7 @@ noscript {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -2996,11 +3067,13 @@ noscript {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(to bottom, 
-    transparent 0%, 
-    rgba(8, 247, 254, 0.6) 10%, 
-    rgba(8, 247, 254, 0.6) 90%, 
-    transparent 100%);
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(8, 247, 254, 0.6) 10%,
+    rgba(8, 247, 254, 0.6) 90%,
+    transparent 100%
+  );
   z-index: 1;
 }
 
@@ -3018,8 +3091,8 @@ noscript {
   height: 20px;
   border-radius: 50%;
   background: #09fbd3;
-  box-shadow: 0 0 0 4px rgba(9, 251, 211, 0.2), 
-              0 0 10px 5px rgba(9, 251, 211, 0.1);
+  box-shadow: 0 0 0 4px rgba(9, 251, 211, 0.2),
+    0 0 10px 5px rgba(9, 251, 211, 0.1);
   z-index: 2;
 }
 
@@ -3056,7 +3129,7 @@ noscript {
 }
 
 .timeline-title h3 {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: #e6f1ff;
   margin: 0 0 0.5rem 0;
   font-size: 2.3rem;
@@ -3066,7 +3139,7 @@ noscript {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 0.9rem;
 }
 
@@ -3104,7 +3177,7 @@ noscript {
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 0.8rem;
-    font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   color: #a8b2d1;
 }
 
@@ -3118,25 +3191,25 @@ noscript {
 /* Responsive Design */
 @media (max-width: 768px) {
   .timeline {
-    padding-left: 30px;
+    padding-left: 13%;
   }
-  
+
   .timeline-marker {
     left: -25px;
     width: 15px;
     height: 15px;
   }
-  
+
   .timeline-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
   }
-  
+
   .timeline-details {
     padding-left: 0;
   }
-  
+
   .timeline-meta {
     flex-direction: column;
     gap: 0.5rem;
@@ -3147,20 +3220,15 @@ noscript {
   .timeline-section {
     padding: 4rem 1rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .timeline-content {
     padding: 1.5rem;
   }
 }
-
-
-
-
-
 
 /* Contact Section Styles */
 .contact-section {
@@ -3184,7 +3252,7 @@ noscript {
 }
 
 .section-tag {
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 2rem;
   color: #4fc3f7;
   margin-right: 1.5rem;
@@ -3193,7 +3261,12 @@ noscript {
 .glow-bar {
   height: 2px;
   flex-grow: 1;
-  background: linear-gradient(90deg, rgba(79,195,247,0.2) 0%, rgba(79,195,247,1) 50%, rgba(79,195,247,0.2) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(79, 195, 247, 0.2) 0%,
+    rgba(79, 195, 247, 1) 50%,
+    rgba(79, 195, 247, 0.2) 100%
+  );
 }
 
 .contact-grid {
@@ -3271,12 +3344,12 @@ noscript {
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .section-header {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .glow-bar {
     width: 100%;
     margin-top: 1rem;
