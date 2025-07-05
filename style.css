@@ -3189,7 +3189,7 @@ noscript {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .timeline {
     padding-left: 13%;
   }
@@ -3214,9 +3214,9 @@ noscript {
     flex-direction: column;
     gap: 0.5rem;
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .timeline-section {
     padding: 4rem 1rem;
   }
@@ -3228,7 +3228,7 @@ noscript {
   .timeline-content {
     padding: 1.5rem;
   }
-}
+} */
 
 /* Contact Section Styles */
 .contact-section {
