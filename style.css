@@ -1858,6 +1858,7 @@ noscript {
   display: flex;
   align-items: center;
   gap: 10px;
+      margin-top: 8%;
   padding-left: 230px;
   padding-bottom: 70px;
 }
@@ -3259,6 +3260,7 @@ noscript {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  margin-bottom: 60px;
 }
 
 .contact-item {

@@ -191,7 +191,7 @@ window.addEventListener('resize', windowResize);
 document.getElementById('resume-button-2').onclick = () => {
   // Delay the download event by 3 seconds
   window.open(
-    "https://drive.google.com/file/d/1QWJnMGX903BnxExxkzZRMRhZQXyJiEbH/view?usp=sharing"
+    "https://drive.google.com/file/d/170hGU8ZWfQ4MYIZ-sAlMtnTdbm0dnISO/view?usp=sharing"
   ),
     setTimeout(() => {
       // Trigger the download after the delay (replace 'resume-link-2' with your actual element ID)
